@@ -1,0 +1,104 @@
+body {
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin-left: 30px;
+  margin-top: 20px;
+  background-image: url("/imgs1/Shooting\ Star\ GIF\ -\ Shooting\ Star\ -\ Discover\ &\ Share\ GIFs.gif Star\ GIF\ -\ Shooting\ Star\ -\ Discover\ &\ Share\ GIFs.gif");
+}
+
+.border-2 {
+  border-radius: 7px;
+  background: lightblue;
+  color: black;
+  padding-left: 7px;
+  padding-bottom: 3px;
+}
+
+.border-3 {
+  border-radius: 7px;
+  background: lightcoral;
+  color: black;
+  padding-left: 7px;
+  padding-bottom: 3px;
+  border-collapse: collapse;
+}
+
+.btn {
+  background: #000;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  color: orange;
+}
+
+.form-row .form-group {
+  display: inline-block;
+}
+
+.form-group {
+  display: block;
+  padding: 10px 10px;
+  line-height: 15px;
+}
+
+.q1232 {
+  transition: all 0.3s;
+}
+
+.q1232:hover {
+  font-size: 2rem;
+  transform: scale(1.2);
+  margin-left: 20px;
+}
+
+.p1222 {
+  margin-bottom: 30px;
+}
+
+.menu {
+  background: lightcoral;
+  margin-bottom: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding: 0 20px;
+}
+
+.menu ul li,
+a {
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.menu ul li,
+a:hover {
+  background: #ea6767;
+}
+
+.menu {
+  position: fixed;
+}
+
+.h11 {
+  margin-top: 50px;
+}
+
+@media (max-width: 856px) {
+  .form-row {
+    text-align: center;
+  }
+}
